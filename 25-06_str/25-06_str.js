@@ -1,6 +1,7 @@
 /* String Method ( Prototypes ) */
 
-/* main-pad String String.padEnd() / string.padstart() method :- 
+/* main-pad String String.padEnd() / string.padstart() method 
+string ni length ma vadharo krva mate:- 
 
  Defination padstart() :- The padStart() method of String values pads this string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of this string.
 
@@ -15,7 +16,7 @@
 
 {
     // let str='this is padstart method!'
-    // console.log(str.length) length find krva mate;
+    // console.log(str.length) // length find krva mate;
 
     // let string1=str.padStart(35,'10')
     // let string2=str.padEnd(35,'0')
@@ -23,7 +24,7 @@
     // console.log(string1);
     // console.log(string2);
 
-    // console.log(string1.length) length find krva mate;
+    // console.log(string1.length) //length find krva mate;
 }
 
 /* main-trim String String.trim() Method means remover space :-
@@ -70,7 +71,9 @@
 //     console.log(at);
 // }
 
-/* main-charAt String String.charAt() Method */
+/* main-charAt String String.charAt() Method 
+tame je value naykhi hoy te uper ky string che te dekhade
+*/
 
 // Defination :- The charAt() method of String values returns a new string consisting of the single UTF-16 code unit at the given index.
 
@@ -81,7 +84,7 @@
 {
 
     // let str = "this is string charAt method"
-    //            0123456789012345678901234567 
+    //         // 0123456789012345678901234567 
     // let charAt=str.charAt(10)
     // console.log(charAt);
     // let charcodeAt=str.charCodeAt(17)
@@ -89,7 +92,7 @@
 
 }
 
-/* main-startswith-endswith String String.endswith() / String.startswith() Method starting kyathi chalu thay and end kyathi puru thay */
+/* main-startswith-endswith String String.endswith() / String.startswith() Method starting kyathi chalu thay and end kyathi puru thay te true or flase return kri ne show kre */
 
 /* Defination String.startswith() :- The startwith() method of string valued determines whether this string begins with the characters of a specified string, returning true apptopriate. */
 
@@ -100,21 +103,24 @@
 
 
 // {
-//     let str = 'this is string start with method This!'
+    // let str = 'this is string start with method This!'
 
-//     let startswith1 = str.startsWith("t")
-//     let startswith2 = str.startsWith('This!',)
-//     console.log(startswith1);
-//     console.log(startswith2);
+    // let startswith1 = str.startsWith("t")
+    // let startswith2 = str.startsWith('This!',)
+    // console.log(startswith1);
+    // console.log(startswith2);
 
-//     let endswith1 = str.endsWith("!")
-//     let endswith2 = str.endsWith("is",4)
-//     console.log(endswith1);
-//     console.log(endswith2);
+    // let endswith1 = str.endsWith("!")
+    // let endswith2 = str.endsWith("is",4)
+    // console.log(endswith1);
+    // console.log(endswith2);
 // }
 
 
-/* main-slice-substring String String.slice() / String.substring() Method */
+/* main-slice-substring String String.slice() / String.substring() Method 
+slice :- kya sudhi nu print kravau te nakki krva mate negative and positive both accept kre
+substring :- 5 nakho to 1 to 5 string sudhi j print thay negative accept no kre
+*/
 
 // Defination slice() :- The slice() method of String values extracts a section of this string and returns it as a new string, without modifying the original string.
 
