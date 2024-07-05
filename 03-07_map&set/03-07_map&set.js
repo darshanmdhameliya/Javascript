@@ -39,15 +39,15 @@
     // maps.delete('1')
     // console.log(maps);
 
-    //entries method
+    // entries method key and value both show kre 
     // let resultEntries = maps.entries()
     // console.log(resultEntries.next().value);
     // console.log(resultEntries.next().value);
     // console.log(resultEntries.next().value);
     // console.log(resultEntries.next().value);
 
-    //keys method
-    // let resultkey = maps.keys()
+    //keys method only key show kre
+    // let resultkey = maps.keys() 
     // console.log(resultkey.next().value);
     // console.log(resultkey.next().value);
     // console.log(resultkey.next().value);
@@ -84,7 +84,7 @@
     // console.log(sets);
 
     //values method
-    // let resultvalues = Sets.values()
+    // let resultvalues = sets.values()
     // console.log(resultvalues.next().value);
     // console.log(resultvalues.next().value);
     // console.log(resultvalues.next().value);
