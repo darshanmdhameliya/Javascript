@@ -83,9 +83,9 @@
 //     let setSeconds = today.setSeconds(50)
 //     console.log(today);
 
-    //setmilliSecond
-    let getmilliSeconds = today.getMilliseconds()
-    console.log(getmilliSeconds);
+    // //setmilliSecond
+    // let getmilliSeconds = today.getMilliseconds()
+    // console.log(getmilliSeconds);
 
 // }
 
