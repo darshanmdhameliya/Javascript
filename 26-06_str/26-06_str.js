@@ -13,7 +13,7 @@
 //     //         012345678901234567890123
 
 //     let include1=str.includes('include')
-//     let include2=str.includes('is',6)
+//     let include2=str.includes('is',5)
 
 //     console.log(include1);
 //     console.log(include2);
@@ -140,10 +140,10 @@
 
 // }
 
-{
-    let str="this is string"
+// {
+//     let str="this is string"
 
-    let str2=[...str]
+//     let str2=[...str]
 
-    console.log(str2);
-}   
+//     console.log(str2);
+// }   
