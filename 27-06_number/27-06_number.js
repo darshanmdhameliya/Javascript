@@ -33,11 +33,11 @@
 // {
 //     let number=250000
 
-//     let expo1=number.toExponential(1)
+//     let expo1=number.toExponential(1)  // point pachi ketla ank rakhva te nakki karva mate
 //     console.log(expo1);
 // }
 
-/* tofixed() */
+/* tofixed() */ //point pachi ketla ank rakhva te fix karva mate
 
 // {
 //   let number = 20.465456;
@@ -56,21 +56,25 @@
 // {
 //   let number = 20.465456;
 
-//   let Precision1 = number.toPrecision(1);
-//   let Precision2 = number.toPrecision(2);
+//   let Precision1 = number.toPrecision(1); // point pachi ketla number rakhva te 2e+1
+//   let Precision2 = number.toPrecision(4); // point pachi ketla number rakhva te 20.47
 
 //   console.log(Precision1);
 //   console.log(Precision2);
 
 // }
 
-/* tostring() */
+/* tostring() */  //number to string ma convert krva mate
 
 // {
 //     let number =122
 
+//     // console.log(typeof number);
+
 //     let string1=number.toString()
 
 //     console.log(string1);
+//     // console.log(typeof string1);
+
 // }
 
