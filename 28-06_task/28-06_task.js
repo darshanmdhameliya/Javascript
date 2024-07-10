@@ -71,7 +71,7 @@
 //     let c=30
 //     let d=40
 //     let e=50
-    
+
 //     console.log(a+b-c*d/e);
 // }
 
@@ -154,7 +154,7 @@
 // {
 //     let a=10
 //     let b=20
-    
+
 //     console.log(a+b);
 //     console.log(a==b);
 //     console.log(a+=b);
@@ -168,11 +168,83 @@
 
 /*11. Complex Assignments[2 types] */
 
-{
-    let a=10
-    let b=20
+// {
+//     let a=10
+//     let b=20
 
-    console.log(a <= b);
-    console.log(a >= b);
-    console.log(a == b);
+//     console.log(a <= b);
+//     console.log(a >= b);
+//     console.log(a == b);
+// }
+
+/* 1 to 5  if ..else progam */
+
+/* 1. Check if a number is odd or even in JavaScript */
+
+// {
+//     let number = prompt("enter the number")
+
+//     if (number % 2 == 0){
+//         console.log("number is even");
+//     }
+//     else{
+//         console.log("number is odd");
+//     }
+// }
+
+/* 2. Find the larger of two number */
+
+// {
+//     let number1 = prompt("enter the number1")
+//     let number2 = prompt("enter the number2")
+
+//     if(number1>number2){
+//         console.log(`number1 is larger ${number1}>${number2}`);
+//     }else{
+//         console.log(`number2 is larger ${number2}>${number1}`);
+//     }
+
+// }
+
+/* 3. Perform arithmetic operations on two numbers */
+
+// {
+//     let number1 = prompt("enter the number1")
+//     let number2 = prompt("enter the number2")
+
+//     let number3 = number1 ** number2
+
+//     console.log(number3);
+// }
+
+/* 4. Find the grade for input marks */
+
+{
+    let number1 = prompt("enter the marks of subject1")
+    let number2 = prompt("enter the marks of subject2")
+    let number3 = prompt("enter the marks of subject3")
+    let number4 = prompt("enter the marks of subject4")
+    let number5 = prompt("enter the marks of subject5")
+
+    let total = total(number1 + number2 + number3 + number4 + number5)
+
+    console.log(`total is = ${total}`);
+
+    let per = (total / 5) * 100
+
+
+
+    if (per > 35) {
+        console.log(`student is failed`);
+    }
+    else if (per < 60) {
+        console.log(`gradeis C`);
+    }
+    else if (per < 80) {
+        console.log(`gradeis B`);
+    }
+    else if (per < 90) {
+        console.log(`gradeis A`);
+    }
+
 }
