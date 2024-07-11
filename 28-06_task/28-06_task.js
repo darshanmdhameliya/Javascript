@@ -219,32 +219,115 @@
 
 /* 4. Find the grade for input marks */
 
+// {
+//     let number1 = prompt("enter the marks of subject1")
+//     let number2 = prompt("enter the marks of subject2")
+//     let number3 = prompt("enter the marks of subject3")
+//     let number4 = prompt("enter the marks of subject4")
+//     let number5 = prompt("enter the marks of subject5")
+
+//     let total = total(number1 + number2 + number3 + number4 + number5)
+
+//     console.log(`total is = ${total}`);
+
+//     let per = (total / 5) * 100
+
+//     if (per > 35) {
+//         console.log(`student is failed`);
+//     }
+//     else if (per < 60) {
+//         console.log(`gradeis C`);
+//     }
+//     else if (per < 80) {
+//         console.log(`gradeis B`);
+//     }
+//     else if (per < 90) {
+//         console.log(`gradeis A`);
+//     }
+// }
+
+/* 5. Sort three numbers */
+
+// {
+//     let number = [60, 40, 20]
+
+//     let sort = number.sort()
+
+//     console.log(sort);
+// }
+
+
+/* JAVASCRIPT LOGICAL PROGRAM */
+
+// Evaluate each of the following JavaScript expressions and show the value.
+
+// 1. ‐9*3 ‐27
+// 2. “Value is “+ 50 “value is 50”
+// 3. 17 % 5 2
+// 4. 5 % 17 5
+// 5. 5/10 0.5
+// 6. (4 == 4) true
+// 7. (4! = 5) true
+// 8. (7 <= 8) true
+
+/* 1. ‐9*3 = ‐27 */
+
+// {
+//     let number1 = prompt("enter the first value")
+//     let number2 = prompt("enter the second value")
+
+//     let result = -number1 * number2
+
+//     console.log(result);
+
+// }
+
+/* 2. “Value is “+ 50  = “value is 50” */
+
+/* 3. 17 % 5 = 2 */
+
+// {
+//     let number1 = prompt("enter the first value")
+//     let number2 = prompt("enter the second value")
+
+//     let result =  number1 % number2
+
+//     console.log(result);
+
+// }
+
+/* 4. 5 % 17 5 */
+// {
+//     let number1 = prompt("enter the first value")
+//     let number2 = prompt("enter the second value")
+
+//     let result =  number1 % number2
+
+//     console.log(result);
+
+// }
+
+/* 5. 5/10 =  0.5 */
+
+// {
+//     let number1 = prompt("enter the first value")
+//     let number2 = prompt("enter the second value")
+
+//     let result =  number1 / number2
+
+//     console.log(result); 
+// }
+
+/*  6. (4 == 4)  = true */
+
+/* 7. (4! = 5) true */
+
 {
-    let number1 = prompt("enter the marks of subject1")
-    let number2 = prompt("enter the marks of subject2")
-    let number3 = prompt("enter the marks of subject3")
-    let number4 = prompt("enter the marks of subject4")
-    let number5 = prompt("enter the marks of subject5")
+    let number1 = prompt("enter the first value")
+    let number2 = prompt("enter the second value")
 
-    let total = total(number1 + number2 + number3 + number4 + number5)
+    let result =  number1 != number2
 
-    console.log(`total is = ${total}`);
-
-    let per = (total / 5) * 100
-
-
-
-    if (per > 35) {
-        console.log(`student is failed`);
-    }
-    else if (per < 60) {
-        console.log(`gradeis C`);
-    }
-    else if (per < 80) {
-        console.log(`gradeis B`);
-    }
-    else if (per < 90) {
-        console.log(`gradeis A`);
-    }
-
+    console.log(result); 
+    
 }
