@@ -138,11 +138,11 @@
 
 // Syntax :- Object.is(value1, value2)
 
-{
-    console.log(Object.is('1', 1));
-    console.log(Object.is(NaN, NaN));
-    console.log(Object.is({}, {}));
-    console.log(Object.is([], []));
-    console.log(Object.is({}, []));
-    console.log(Object.is(undefined, undefined));
-}
+// {
+//     console.log(Object.is('1', 1));
+//     console.log(Object.is(NaN, NaN));
+//     console.log(Object.is({}, {}));
+//     console.log(Object.is([], []));
+//     console.log(Object.is({}, []));
+//     console.log(Object.is(undefined, undefined));
+// }
