@@ -7,7 +7,13 @@
 
 
 // {
-//     let at = 
+//     let array =['html', 'css' ,'tailwind' ,'sass','javascript']
+
+//     let at = array.at(3)
+//     let at1 = array.at(-3)
+
+//     console.log(at);
+//     console.log(at1);
 // }
 
 
@@ -45,7 +51,7 @@
 // }
 
 
-/* javascript Array.copyWithin() method */
+/* javascript Array.entries() method */
 
 // key and value return kre
 
