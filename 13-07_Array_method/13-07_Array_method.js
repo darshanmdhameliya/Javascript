@@ -178,8 +178,26 @@
 // Syntax:- flat()
 //          flat(depth)
 
-
 {
-    
+  let num = [12, 13, 14, 15, [16, 17, 18, [19, 20, 21, [22, 23, 24]]]];
+
+  console.log(num[4][3][3][0]);
+
+  let result = num.flat(4);
+  console.log(result);
 }
 
+/* javascrip Array.flat() method */
+
+// The flatMap() method of Array instances returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. It is identical to a map() followed by a flat() of depth 1 (arr.map(...args).flat()), but slightly more efficient than calling those two methods separately.
+
+// Syntax :- flatMap(callbackFn)
+//           flatMap(callbackFn, thisArg)
+
+{
+  let num = [12, 13, 14, 14, 13, 17, 18];
+
+  let result = num.flatMap((item) => (item==14) ? [14,14] : item)
+
+  console.log(result);
+}
