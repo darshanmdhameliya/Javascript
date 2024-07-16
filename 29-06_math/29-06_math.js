@@ -74,39 +74,39 @@ sqrt
 }
 
 {
-    let math1=Math.max(10,65,52,46,80)  //maximum number find kri ne aape
-    let math2=Math.min(10,65,52,46,80)  //minimum number find kri ne aape
+  let math1 = Math.max(10, 65, 52, 46, 80)  //maximum number find kri ne aape
+  let math2 = Math.min(10, 65, 52, 46, 80)  //minimum number find kri ne aape
 
-    console.log(math1);
-    console.log(math2);
+  console.log(math1);
+  console.log(math2);
 }
 
 {
-    let math1=Math.trunc(25.1234)  // point pachi game tetla number nakho count no kre main number j lye
-    console.log(math1);
+  let math1 = Math.trunc(25.1234)  // point pachi game tetla number nakho count no kre main number j lye
+  console.log(math1);
 }
 
 {
-    let math1=Math.abs(-0) // only negetive number j show kre -0 => 0 aave 500 => 500 aave -500 => 500 aave  
-    console.log(math1);
+  let math1 = Math.abs(-0) // only negetive number j show kre -0 => 0 aave 500 => 500 aave -500 => 500 aave  
+  console.log(math1);
 }
 
 {
-    let math1=Math.sqrt(256) // vargmud kaghi ne aape
-    console.log(math1);
+  let math1 = Math.sqrt(256) // vargmud kaghi ne aape
+  console.log(math1);
 }
 
 {
-    let math1=Math.pow(2,4) // 2*2*2*2 = >16
-    console.log(math1);
+  let math1 = Math.pow(2, 4) // 2*2*2*2 = >16
+  console.log(math1);
 }
 
 {
-    let math1=Math.log(10)
-    let math2=Math.log2(10)
-    let math3=Math.log10(10)
+  let math1 = Math.log(10)
+  let math2 = Math.log2(10)
+  let math3 = Math.log10(10)
 
-    console.log(math1);
-    console.log(math2);
-    console.log(math3);
+  console.log(math1);
+  console.log(math2);
+  console.log(math3);
 }
