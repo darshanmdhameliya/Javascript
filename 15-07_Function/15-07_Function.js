@@ -21,7 +21,7 @@
 //         console.log(10 * 10)
 //     )
 // }
-
+    
 // setTimeout(multi, 1000)
 
 // console.log('Hello world');
@@ -50,15 +50,15 @@
 
 /* clearTimeout means ke tame je time nakhelo hase te time sudhi j tamru function call thase*/ // depend timeoutId
 
-{
-    let timeoutId = setTimeout(function counter() {
-        console.log(10);
-    }, 3000)
+// {
+//     let timeoutId = setTimeout(function counter() {
+//         console.log(10);
+//     }, 3000)
 
-    console.log(timeoutId);
+//     console.log(timeoutId);
 
-    setTimeout(() => clearTimeout(timeoutId), 4000)
-}
+//     setTimeout(() => clearTimeout(timeoutId), 4000)
+// }
 
 /* clearInterval  means tame jetlo time nakhelo hoy tetlo j time tamaru functionc chalse */ 
 

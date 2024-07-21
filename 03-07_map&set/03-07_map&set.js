@@ -90,7 +90,7 @@
     // console.log(resultvalues.next().value);
     // console.log(resultvalues.next().value);
 
-    //has method    value display kre
+    //has method    value available che ke nahi te chek kre
     // let resulthas = sets.has('css')
     // console.log(resulthas);
 

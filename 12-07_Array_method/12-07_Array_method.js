@@ -5,22 +5,22 @@
 // {
 //     let arra = []
 //     console.log(arra);
-//     array[0] = "html"
+//     arra[0] = "html"
 //     console.log(arra);
-//     array[1] = "css"
+//     arra[1] = "css"
 //     console.log(arra);
-//     array[2] = "javascript"
+//     arra[2] = "javascript"
 //     console.log(arra);
-//     array[3] = "reactjs"
+//     arra[3] = "reactjs"
 //     console.log(arra);
 //     console.log(arra.length);
-//     array.length = 50
+//     arra.length = 50
 //     console.log(arra);
-//     console.log(array[0]);
-//     console.log(array[1]);
-//     console.log(array[1] === undefined);
-//     console.log(arra.entries(array));
-}
+//     console.log(arra[0]);
+//     console.log(arra[1]);
+//     console.log(arra[1] === undefined);
+//     console.log(arra.entries(arra));
+// }
 
 /*  Array Constructor Method */
 
@@ -42,20 +42,21 @@
 
 /* javascript Array.at() method */
 
-// The at() method of Array instances takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the array.
+//tame nakhela index per ni value print kri ne aape
 
+// The at() method of Array instances takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the array.
 
 // Syntax :- at(index)
 
 
-// {
+// {                                                                                       
 //     let array =['html', 'css' ,'tailwind' ,'sass','javascript']
 
-//     let at = array.at(3)
+//     let at = array.at(3)                                                
 //     let at1 = array.at(-3)
 
 //     console.log(at);
-//     console.log(at1);
+//     console.log(at1);       
 // }
 
 
@@ -88,7 +89,7 @@
 
 //     console.log(array1.copyWithin(3,5));
 
-//     // console.log(array1.copyWithin(1,3,4));
+//     console.log(array1.copyWithin(1,3,4));
 
 // }
 

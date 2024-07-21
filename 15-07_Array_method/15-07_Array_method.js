@@ -82,21 +82,21 @@
 
 /*javascript Array.reduceright() method */
 
-// all value ne sathe operation kre ne initialvalue add kre nut right side thi
+// all value ne sathe operation kre ne initialvalue add kre but right side thi
 
 // The reduceRight() method of Array instances applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.
 
 // reduceRight(callbackFn)
 // reduceRight(callbackFn, initialValue)
 
-{
+// {
 
-  let array = [11, 12, 13, 14, 15];
+//   // let array = [11, 12, 13, 14, 15];
 
-  let initialValue = 9;
+//   // let initialValue = 9;
 
-  let reduceRight = array.reduceRight((prev, next) => prev - next, initialValue);
+//   // let reduceRight = array.reduceRight((prev, next) => prev - next, initialValue);
 
-  console.log(reduceRight);
+//   // console.log(reduceRight);
 
-}
+// }

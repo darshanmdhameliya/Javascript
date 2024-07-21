@@ -181,7 +181,7 @@
 // {
 //   let num = [12, 13, 14, 15, [16, 17, 18, [19, 20, 21, [22, 23, 24]]]];
 
-//   console.log(num[4][3][3][0]);
+//   console.log(num[4][3][3][2]);
 
 //   let result = num.flat(4);
 //   console.log(result);

@@ -32,7 +32,7 @@
 
 /* catch */
 
-// he catch() method of Promise instances schedules a function to be called when the promise is rejected. It immediately returns another Promise object, allowing you to chain calls to other promise methods. It is a shortcut for Promise.prototype.then(undefined, onRejected).
+// catch() method of Promise instances schedules a function to be called when the promise is rejected. It immediately returns another Promise object, allowing you to chain calls to other promise methods. It is a shortcut for Promise.prototype.then(undefined, onRejected).
 
 /* then */
 
@@ -50,7 +50,6 @@
 //         reject('kayo is sick!!!')
 //     }
 // })
-
 
 // promise.then(()=>{
 //     console.log('kayo is healthy!!!');
@@ -72,20 +71,20 @@
 //     // statements
 // }
 
-// {
-//     let greek = new Promise(function(resolve,reject){
-//         setTimeout(()=>{
-//             resolve('Promise Has been resolved..')
-//         },5000)
-//     })
+{
+    let greek = new Promise(function(resolve,reject){
+        setTimeout(()=>{
+            resolve('Promise Has been resolved..')
+        },5000)
+    })
 
-//     async function print(){
-//         let result = await greek
-//         console.log(result);
-//         console.log('hello async and await!!!');
-//     }
-//     print()
-// }
+    async function print(value1,value2){
+        let result = await greek
+        console.log(result);
+        console.log('hello async and await!!!');
+    }
+    print()
+}
 
 /* try and catch method */
 

@@ -1,20 +1,20 @@
 /* javascript this keyword */
 
 // {
-//     let x=this
-//     console.log(x);
+    // let x=this
+    // console.log(x);
 // }
 
 // {
-//     let profile = {
-//         firstname:'darshan',
-//         lastname :'dhameliya',
-//         age:19,
-//         innerfunc:function(){
-//             console.log(`my first name ${this.firstname} and my last name ${this.lastname} and age ${this.age}`);
-//         }
-//     }
-//     profile.innerfunc()
+    // let profile = {
+    //     firstname:'darshan',
+    //     lastname :'dhameliya',
+    //     age:19,
+    //     innerfunc:function(){
+    //         console.log(`my first name ${this.firstname} and my last name ${this.lastname} and age ${this.age}`);
+    //     }
+    // }
+    // profile.innerfunc()
 // }
 
 /* javascript object method */
@@ -37,6 +37,8 @@
 
 /* javascript assign() method */
 
+// 2 object aek sathe print kri ne aape 
+
 // The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
 
 //Syntax :- // Object.assign(target)
@@ -57,7 +59,7 @@
 
 //     console.log(obj);
 
-//     console.log(obj1);
+//     // console.log(obj1);
 // }
 
 /* javascript object.create() method */
@@ -86,7 +88,7 @@
 //     secondprofile.fullname()
 // }
 
-/* javascript defienproperties() method */
+/* javascript defineproperties() method */
 
 // The Object.defineProperties() static method defines new or modifies existing properties directly on an object, returning the object.
 
@@ -107,7 +109,7 @@
 //         }
 //     })
 
-//     // console.log(Object1.property1);
+//     console.log(Object1.property1);
 
 //     console.log(Object1);
 // }

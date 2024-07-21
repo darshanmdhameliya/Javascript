@@ -39,19 +39,19 @@
 // constructor(argument0, argument1) { /* … */ }
 // constructor(argument0, argument1, /* …, */ argumentN) { /* … */ }
 
-{
-  let array = [10, 20, 30];
+// {
+//   let array = [10, 20, 30];
 
-  let array1 = [...array];
+//   let array1 = [...array];
 
-  console.log(array1);
+//   console.log(array1);
 
-  function sum(x, y, z) {
-    return console.log(x + y + z);
-  }
+//   function sum(x, y, z) {
+//     return console.log(x + y + z);
+//   }
 
-  sum(...array);
-}
+//   sum(...array);
+// }
 
 /* kitchen pinchin 7 steps to making your ow pizza */
 
