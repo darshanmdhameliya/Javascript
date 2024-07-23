@@ -1,18 +1,18 @@
 /* javascript AJAX */
 
 // {
-//   var https = new XMLHttpRequest();
+//     var https = new XMLHttpRequest();
 
-//   https.onreadystatechange = function () {
-//     if (this.readyState == 4 && this.status == 200) {
-//       console.log(this.responseText);
-//     } else {
-//       console.log("Page Not Found!");
-//     }
-//   };
+//     https.onreadystatechange = function () {
+//         if (this.readyState == 4 && this.status == 200) {
+//         console.log(this.responseText);
+//         } else {
+//         console.log("Page Not Found!");
+//         }
+//     };
 
-//   https.open("GET", "./input.txt", true);
-//   https.send();
+//     https.open("GET", "./input.txt", true);
+//     https.send();
 // }
 
 // {
@@ -41,6 +41,8 @@
 // apply(thisArg)
 // apply(thisArg, argsArray)
 
+// complusry array[] ma write krvanu //line no:57
+
 // {
 //   let profile = {
 //     firstname: 'darshan',
@@ -58,6 +60,7 @@
 // }
 
 /* call method */
+// Array[] Ma print kravi to undefine aave //line no: 76
 
 // {
 //   let profile = {
