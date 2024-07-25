@@ -60,7 +60,7 @@
 //     setTimeout(() => clearTimeout(timeoutId), 4000)
 // }
 
-/* clearInterval  means tame jetlo time nakhelo hoy tetlo j time tamaru functionc chalse */ 
+/* clearInterval  means tame jetlo time nakhelo hoy tetlo j time tamaru function chalse */ 
 
 // {
 //     let TimeIntervalid = setInterval(function counter(){

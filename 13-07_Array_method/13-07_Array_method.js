@@ -8,11 +8,11 @@
 //          filter(callbackFn, thisArg)
 
 // {
-//   let array = ["html", "css", "javascript", "sass", "development"];
+  // let array = ["html", "css", "javascript", "sass", "development"];
 
-//   let result = array.filter((subject) => subject.length > 5);
+  // let result = array.filter((subject) => subject.length > 5);
 
-//   console.log(result);
+  // console.log(result);
 
 //   let num = [20, 66, 35, 41, 23, 78];
 
@@ -26,7 +26,7 @@
 
 /* javascript Array.slice() method */
 
-//jetla slice nakhya hoy te j index print kre
+//jetla slice nakhya hoy te j index print kre and last value print no kre
 
 // {
 //     let array = ["html", "css", "javascript", "sass", "development"];
@@ -94,17 +94,17 @@
 // array sort kre line ma lave a , b , c .. pramane
 
 // {
-//   let array = ["html", "css", "javascript", "sass", "development"];
+  // let array = ["html", "css", "javascript", "sass", "development"];
 
-//   array.sort();
+  // array.sort();
 
-//   console.log(array);
+  // console.log(array);
 
-//   let num = [100, 45, 35, 72];
+  // let num = [100, 45, 35, 72];
 
-//   let result = num.sort((a,b) => a-b);
+  // let result = num.sort((a,b) => a-b);
 
-//   console.log(num);
+  // console.log(num);
 // }
 
 /* javascript Array.some() method */
@@ -126,7 +126,7 @@
 
 /* javascript Array.reverse() method */
 
-// reverse ma show thase
+// reverse ma show thase  
 
 // {
 //   let array = ["html", "css", "javascript", "sass", "development"];

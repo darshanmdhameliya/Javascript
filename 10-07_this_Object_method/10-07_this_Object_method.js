@@ -120,17 +120,17 @@
 
 //Syntax :- Object.defineProperty(obj, prop, descriptor)
 
-// {
-//     let Object1 = {};
+{
+    let Object1 = {};
 
-//     Object.defineProperty(Object1,'property1', {
-//         value: 500,
-//         writable: false
-//     })
+    Object.defineProperty(Object1,'property1', {
+        value: 500,
+        writable: false
+    })
 
-//     Object1.property1 = 400
+    Object1.property1 = 400
 
-//     console.log(Object1.property1);
+    console.log(Object1.property1);
 
-//     console.log(Object1);
-// }
+    console.log(Object1);
+}

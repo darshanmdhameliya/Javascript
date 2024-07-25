@@ -18,7 +18,7 @@
 // The includes() method of Array instances determines whether an array includes a certain value among its entries, returning true or false as appropriate.
 
 // includes(searchElement) // answer true or flase ma aave // tame find kreli value array ma che ke ny te check kre
-// includes(searchElement, fromIndex) // tame value nakhya pachi anei index check kri ke aa index pachi te value array ma che ke ny te check kre
+// includes(searchElement, fromIndex) // tame value nakhya pachi aeni index check kri ke aa index pachi te value array ma che ke ny te check kre
 
 // {
 //     let array = [45, 69, 78, 85, 36];

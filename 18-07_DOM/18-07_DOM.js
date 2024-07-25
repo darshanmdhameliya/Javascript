@@ -25,7 +25,7 @@
     let dom6=document.getElementById('heading').innerText
     console.log(dom6);
  
-      //textContent menas inside tag no print thay nut space print thase
+      //textContent menas under no  tag no print thay but space print thase
     let dom7=document.getElementById('heading').textContent
     console.log(dom7);
 
@@ -42,11 +42,11 @@
     let dom6=document.getElementById('heading').innerText
     console.log(dom6);
 
-    //textContent menas inside tag no print thay nut space print thase
+    //textContent menas inside tag no print thay but space print thase
     let dom7=document.getElementById('heading').textContent 
     console.log(dom7);
 
-    //innerHTML means tame koy  span tag ma write krelu hoy te tag pn print thase
+    //innerHTML means tame koy span tag ma write krelu hoy te tag pn print thase
     let dom8=document.getElementById('heading').innerHTML
     console.log(dom8);
 

@@ -71,20 +71,20 @@
 //     // statements
 // }
 
-{
-    let greek = new Promise(function(resolve,reject){
-        setTimeout(()=>{
-            resolve('Promise Has been resolved..')
-        },5000)
-    })
+// {
+//     let greek = new Promise(function(resolve,reject){
+//         setTimeout(()=>{
+//             resolve('Promise Has been resolved..')
+//         },5000)
+//     })
 
-    async function print(value1,value2){
-        let result = await greek
-        console.log(result);
-        console.log('hello async and await!!!');
-    }
-    print()
-}
+//     async function print(value1,value2){
+//         let result = await greek
+//         console.log(result);
+//         console.log('hello async and await!!!');
+//     }
+//     print()
+// }
 
 /* try and catch method */
 
