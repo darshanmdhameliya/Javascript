@@ -80,27 +80,27 @@
 
 /* Bind method */
 
-// {
-//   const student1 = {
-//     name: "janvi",
-//     grade: "5",
-//     itroduction: function () {
-//       console.log(this.name + " student in grade " + this.grade + ".");
-//     },
-//   };
+{
+  const student1 = {
+    name: "janvi",
+    grade: "5",
+    itroduction: function () {
+      console.log(this.name + " student in grade " + this.grade + ".");
+    },
+  };
 
-//   const student2 = {
-//     name: "darshan",
-//     grade: "6",
-//   }
+  const student2 = {
+    name: "darshan",
+    grade: "6",
+  }
 
-//   const student3 = {
-//     name: "sweety",
-//     grade: "12",
-//   }
+  const student3 = {
+    name: "sweety",
+    grade: "12",
+  }
 
-//   let result = student1.itroduction.bind(student2)
+  let result = student1.itroduction.bind(student2)
 
-//   result();
+  result();
 
-// }
+}

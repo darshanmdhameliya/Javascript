@@ -42,33 +42,33 @@
 //   console.log(dom4);
 // }
 
-{
-  function addstyle() {
-    let dom4 = document.getElementById("heading");
+// {
+//   function addstyle() {
+//     let dom4 = document.getElementById("heading");
 
-    dom4.classList.add("text");
+//     dom4.classList.add("text");
 
-    console.log(dom4);
-  }
-}
-{
-  function removestyle() {
-    let dom4 = document.getElementById("heading");
+//     console.log(dom4);
+//   }
+// }
+// {
+//   function removestyle() {
+//     let dom4 = document.getElementById("heading");
 
-    dom4.classList.remove("text");
+//     dom4.classList.remove("text");
 
-    console.log(dom4);
-  }
-}
-{
-  function togglestyle() {
-    let dom4 = document.getElementById("heading");
+//     console.log(dom4);
+//   }
+// }
+// {
+//   function togglestyle() {
+//     let dom4 = document.getElementById("heading");
 
-    dom4.classList.toggle("text");
+//     dom4.classList.toggle("text");
 
-    console.log(dom4);
-  }
-}
+//     console.log(dom4);
+//   }
+// }
 
 /* state / Events */
 
@@ -94,18 +94,18 @@ windows
 //   });
 // }
 
-// {
+{
 
-//   const checkbox = document.querySelector("#id-checkbox");
+  const checkbox = document.querySelector("#id-checkbox");
 
-//   checkbox.addEventListener("click", checkboxClick, true);
+  checkbox.addEventListener("click", checkboxClick, true);
 
-//   function checkboxClick(e) {
-//     let warn = "preventDefault() won't let you check this!<br>";
-//     document.getElementById("output-box").innerHTML += warn;
-//   }
-//   e.preventDefault();
+  function checkboxClick(e) {
+    let warn = "preventDefault() won't let you check this!<br>";
+    document.getElementById("output-box").innerHTML += warn;
+  }
+  e.preventDefault();
 
-// }
+}
 
 

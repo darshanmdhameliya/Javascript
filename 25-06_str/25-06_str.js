@@ -14,18 +14,18 @@ string ni length ma vadharo krva mate:-
 
  */
 
-{
-    // let str='this is padstart method!'
-    // console.log(str.length) // length find krva mate;
+// {
+//     let str='this is padstart method!'
+//     console.log(str.length) // length find krva mate;
 
-    // let string1=str.padStart(35,'10')
-    // let string2=str.padEnd(35,'0')
+//     let string1=str.padStart(35,'10')
+//     let string2=str.padEnd(35,'0')
 
-    // console.log(string1);
-    // console.log(string2);
+//     console.log(string1);
+//     console.log(string2);
 
-    // console.log(string1.length) //length find krva mate;
-}
+//     console.log(string1.length) //length find krva mate;
+// }
 
 /* main-trim String String.trim() Method means remover space :-
     1] string.trimStart() 2] string.trimEnd() method :- */
