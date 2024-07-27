@@ -6,86 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .main{
+        .main {
             display: flex;
             justify-content: center;
+
         }
-        .form {
-            width: 25rem;
-            height: fit-content;           
+        form {
+            background-color: black;
+            width: 20rem;
+            height: 30rem;
             border: 1px solid;
             border-radius: 10px;
-            padding: 2rem;
-            /* background-color: black; */
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
         }
 
         .text {
-            margin-bottom: 1.5rem;
-            height: 2rem;
-            width: 100%;
+            padding: 1rem;
         }
 
-        input[type='button'] {
-            padding: 2rem;
-            border-radius: 100%;
+        .write {
+            width: 90%;
+            padding: 1rem;
         }
-        
-        .input{
-           display: flex;
-           gap: 3rem;
-           margin-bottom: 0.5rem;
+
+        .first button,
+        .second button,
+        .third button,
+        .forth button,
+        .fifth button {
+            border-radius: 100%;
+            border: 0.1rem solid white;
+            padding: 1.5rem;
+            font-size: 1rem;
+            background-color: black;
+            color: white;
+        }
+
+        .first button:active,
+        .second button:active,
+        .third button:active,
+        .forth button:active,
+        .fifth button:active {
+            background-color: rgb(61, 60, 60);
+        }
+
+        .first,
+        .second,
+        .third,
+        .forth,
+        .fifth {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .fifth .zero button {
+            width: 8rem;
         }
     </style>
 </head>
 
 <body>
     <div class="main">
-        <form action="" class="form">
-            <div class="">
-                <input type="text" class="text"><br>
+        <form action="">
+            <div class="text">
+                <input type="number" id="textbox" class="write">
             </div>
-            <div class="input">
-                <input type="button" class="" placeholder="">
-                <input type="button" class="" placeholder="2">
-                <input type="button" class="" placeholder="3">
-                <input type="button" class="" placeholder="+">
+            <div class="first">
+                <button onclick="click()">C</button>
+                <button>+/-</button>
+                <button>%</button>
+                <button>➗</button>
             </div>
-            <div class="input">
-                <input type="button" class="" placeholder="4">
-                <input type="button" class="" placeholder="5">
-                <input type="button" class="" placeholder="6">
-                <input type="button" class="" placeholder="-">
+            <div class="second">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>✖</button>
             </div>
-            <div class="input">
-                <input type="button" class="" placeholder="7">
-                <input type="button" class="" placeholder="8">
-                <input type="button" class="" placeholder="9">
-                <input type="button" class="" placeholder="*">
+            <div class="third">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>➖</button>
             </div>
-            <div class="input">
-                <input type="button" class="" placeholder="/">
-                <input type="button" class="" placeholder="0">
-                <input type="button" class="" placeholder=".">
-                <input type="button" class="" placeholder="=">
+            <div class="forth">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>➕</button>
             </div>
-            <div class="input">
-                <input type="button" class="" placeholder="Clear All">
+            <div class="fifth">
+                <div class="zero">
+                    <button>0</button>
+                </div>
+                <button>,</button>
+                <button>=</button>
             </div>
-
-
         </form>
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="calculator.js"></script>
 </body>
