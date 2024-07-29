@@ -1,103 +1,100 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>calculator</title>
     <style>
-        .main {
-            display: flex;
-            justify-content: center;
+      .main {
+        display: flex;
+        justify-content: center;
+      }
 
-        }
+      .form {
+        background-color: black;
+        width: 20rem;
+        height: 30rem;
+        border: 1px solid;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+      }
 
-        .form {
-            background-color: black;
-            width: 20rem;
-            height: 30rem;
-            border: 1px solid;
-            border-radius: 10px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            gap: 0.3rem;
-        }
+      .text {
+        padding: 1rem;
+      }
 
-        .text {
-            padding: 1rem;
-        }
+      #write {
+        width: 90%;
+        padding: 1rem;
+        text-align: right;
+      }
 
-        #write {
-            width: 90%;
-            padding: 1rem;
-            text-align: right;
-        }
+      .row button {
+        border-radius: 100%;
+        border: 0.1rem solid white;
+        padding: 1.5rem;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+      }
 
-        .row button {
-            border-radius: 100%;
-            border: 0.1rem solid white;
-            padding: 1.5rem;
-            font-size: 1rem;
-            background-color: black;
-            color: white;
-        }
+      .row button:active {
+        background-color: rgb(57, 57, 57);
+      }
 
-        .row button:active{
-            background-color: rgb(57, 57, 57);
-        }
-
-        .row {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
+      .row {
+        display: flex;
+        justify-content: space-evenly;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main">
-        <form class="form">
-            <div class="text">
-                <input type="text"  id="write" >
-            </div>
-            <div class="row">
-                <button id="button">C</button>
-                <button id="button">+/-</button>
-                <button id="button">%</button>
-                <button id="button">/</button>
-            </div>
-            <div class="row">
-                <button id="button">7</button>
-                <button id="button">8</button>
-                <button id="button">9</button>
-                <button id="button">*</button>
-            </div>
-            <div class="row">
-                <button id="button">4</button>
-                <button id="button">5</button>
-                <button id="button">6</button>
-                <button id="button">-</button>
-            </div>
-            <div class="row">
-                <button id="button">1</button>
-                <button id="button">2</button>
-                <button id="button">3</button>
-                <button id="button">+</button>
-            </div>
-            <div class="row">
-                <button id="button">0</button>
-                <button id="button">00</button>
-                <button id="button">,</button>
-                <button id="button">=</button>
-            </div>
-        </form>
+      <div class="form">
+        <div class="text">
+          <input type="text" id="write" placeholder="0"/>
+        </div>
+        <div class="row">
+          <button id="button">C</button>
+          <button id="button">+/-</button>
+          <button id="button">%</button>
+          <button id="button">/</button>
+        </div>
+        <div class="row">
+          <button id="button">7</button>
+          <button id="button">8</button>
+          <button id="button">9</button>
+          <button id="button">*</button>
+        </div>
+        <div class="row">
+          <button id="button">4</button>
+          <button id="button">5</button>
+          <button id="button">6</button>
+          <button id="button">-</button>
+        </div>
+        <div class="row">
+          <button id="button">1</button>
+          <button id="button">2</button>
+          <button id="button">3</button>
+          <button id="button">+</button>
+        </div>
+        <div class="row">
+          <button id="button">0</button>
+          <button id="button">00</button>
+          <button id="button">,</button>
+          <button id="button">=</button>
+        </div>
+      </div>
     </div>
     <script src="calculator.js"></script>
-</body>
+  </body>
+</html>
 
-</html> -->
-
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -183,4 +180,4 @@
     <script src="calculator.js"></script>
 </body>
 
-</html>
+</html> -->
